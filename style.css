@@ -1,0 +1,1091 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+.call {
+    background-color: #091e3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 20px;
+}
+
+.calling {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    color: rgb(206, 203, 203);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.calling li {
+    list-style-type: none;
+}
+
+.icon {
+    padding-right: 20px;
+}
+
+.icon i {
+    padding: 7px;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: rgb(202, 201, 201);
+    font-size: 13px;
+
+}
+
+/* navbar */
+
+nav {
+    padding: 20px 30px;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dotted gray;
+}
+
+.logo {
+    display: flex;
+    color: white;
+}
+
+.logo h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.logo i {
+    font-size: 45px;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    align-items: center;
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+.navLinks a {
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navLinks button {
+    background-color: #3385ff;
+    padding: 13px 25px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border-radius: 3px;
+}
+
+
+.navLinks i {
+    color: #5080c7;
+}
+
+/* heroSection */
+
+.navHero {
+    background-image: linear-gradient(rgba(28, 45, 70, 0.7), rgba(28, 45, 70, 0.7)), url(./carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroSection {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.heroSection h1 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: white;
+
+}
+
+.heroSection h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+
+.free {
+    padding: 20px 35px;
+    background-color: #3385ff;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.free:hover {
+    background-color: #346ab9;
+}
+
+.us {
+    padding: 20px 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+.us:hover {
+    background-color: white;
+    color: #091e3e;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* gap: 10px; */
+    padding: 100px;
+    padding-top: 0;
+    margin-top: -50px;
+
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3385ff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 40px;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card1A {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4ecf1;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    gap: 10px;
+    padding:40px;
+}
+
+.card1A h2 {
+    color: #091e3e;
+    font-size: 40px;
+}
+
+.card1 h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.card1A h4 {
+    color: #3385ff;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+
+.card1 h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+
+.card1A i {
+    padding: 20px;
+    background-color: #3385ff;
+    color: white;
+
+}
+
+.card1 i {
+    padding: 20px;
+    background-color: white;
+    color: #3385ff;
+
+}
+
+/* main contents  */
+
+.contentContainer {
+    display: flex;
+    padding: 50px 100px;
+    gap: 30px;
+}
+
+
+.rightContent figure img {
+    height: 580px;
+    width: 460px;
+}
+
+.check {
+    display: flex;
+    gap: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #091e3e;
+    padding-bottom: 20px;
+}
+
+.check i {
+    color: #4384e6;
+}
+
+.check h3 {
+    padding-bottom: 20px;
+}
+
+.callAsk {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+
+.callAsk h3 {
+    font-size: 20px;
+    color: #091e3e;
+    padding-bottom: 5px;
+}
+
+.callAsk i {
+    padding: 20px;
+    background-color: #3385ff;
+    color: white;
+
+}
+
+.leftContent h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: #4384e6;
+}
+
+.leftContent h2 {
+    font-family: "Madimi One", sans-serif;
+    font-size: 50px;
+    color: #091e3e;
+    padding-bottom: 50px;
+}
+
+.leftContent p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 17px;
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.leftContent button {
+    padding: 20px 30px;
+    color: white;
+    background-color: #3385ff;
+    border: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.whyUsContainer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.why h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3385ff;
+    font-size: 25px;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.why h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #091e3e;
+    font-size: 40px;
+    /* font-weight: lighter; */
+    padding-bottom: 75px;
+}
+
+/* bestContainer */
+
+.bestContainer {
+    display: flex;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.midDiv img {
+    height: 380px;
+    padding: 0 20px;
+}
+
+.leftDiv i {
+    padding: 23px;
+    background-color: #3385ff;
+    color: white;
+}
+
+.rightDiv i {
+    padding: 20px;
+    background-color: #3385ff;
+    color: white;
+}
+
+.leftDiv h4 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #091e3e;
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.rightDiv h4 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #091e3e;
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.bestContainer p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: grey;
+    padding-bottom: 35px;
+}
+
+.services {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px 0;
+}
+
+.services h3 {
+    color: #3385ff;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.services h2 {
+    color: #091e3e;
+    font-size: 40px;
+}
+
+/* grid 2  */
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 20px 100px;
+    gap: 40px;
+    text-align: center;
+
+}
+
+
+.card2 {
+    background-color: #eef9ff;
+    padding: 50px 60px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.card2A {
+    background-color: #3385ff;
+    padding: 50px 60px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+
+.card2 .idiv {
+    padding: 23px;
+    background-color: #3385ff;
+    color: white;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+.idiv i {
+    transform: rotate(-45deg);
+}
+
+.card2 h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #091e3e;
+    font-size: 25px;
+}
+
+.card2 p {
+    color: gray;
+}
+
+.card2A h3 {
+
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.card2A h2 {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+/* next div  */
+
+.plan {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.plan h4 {
+    color: #3385ff;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.plan h2 {
+    color: #091e3e;
+    font-size: 40px;
+}
+
+.plan h2 span {
+    font-size: 30px;
+}
+
+/* grid 3 */
+
+.grid3Container {
+    padding: 10px 100px;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+
+.card3 {
+    background-color: #eef9ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.card3A {
+    background-color: white;
+    padding-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card3 h2 {
+    padding: 10px 60px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #091e3e;
+    font-size: 35px;
+}
+
+.card3A h2 {
+    padding: 10px 60px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #091e3e;
+    font-size: 35px;
+
+
+}
+
+.card3 h5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    /* padding-right:60px ; */
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.card3A h5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 60px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.card3 h3 {
+    color: #3385ff;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.card3A h3 {
+    color: #3385ff;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.card3 h4 {
+    color: grey;
+    padding-bottom: 10px;
+    /* border-bottom: 1px dotted grey; */
+}
+
+.card3A h4 {
+    color: grey;
+    padding-bottom: 10px;
+    /* border-bottom: 0.5px dotted grey; */
+}
+
+.card3head {
+    padding: 20px 60px;
+}
+
+.grid3 button {
+    background-color: #3385ff;
+    padding: 15px 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    font-size: large;
+}
+.logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 30px;
+    padding: 100px 0;/
+}
+.logopic img{
+    height: 35px;
+
+
+}
+.whyUsContainer {
+    padding: 25px;
+}
+
+/* form container  */
+
+.reqContent{
+    display: flex;
+    padding: 150px 100px;
+    /* flex-direction: column; */
+    /* color: red; */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    gap: 30px;
+}
+.leftReq{
+    width: 100%;
+}
+.leftReq h4{
+    color: #3385ff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+.leftReq h2{
+    color: #091e3e;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+}
+.leftReq p{
+    color: gray;
+    padding: 20px 0;
+}
+.Support {
+    display: flex;
+    gap: 100px;
+}
+
+.Support h3{
+    padding: 20px 0;
+    font-weight: normal;
+    
+}
+
+.formcont{
+    display: flex;
+    flex-direction: column;
+    background-color: #3385ff;
+    padding: 50px;
+    height: 100%;
+}
+.name{
+    padding:10px 120px 10px 10px;
+    border: none;
+    background-color: #eef9ff;
+}
+.num1{
+    padding:10px 120px 10px 10px;
+    border: none;
+    margin-top: 20px;
+    background-color: #eef9ff;
+}
+.gmail{
+    padding:10px 120px 10px 10px;
+    border: none; 
+    margin-top: 20px;
+    background-color: #eef9ff;
+}
+.sms{
+    padding:10px 120px 50px 10px ;
+    border: none;
+    margin-top: 20px;
+    background-color: #eef9ff;
+}
+.formcont button{
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #091e3e;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.team{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.team h4 {
+    color: #3385ff;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: normal;
+}
+
+.team h2 {
+    color: #091e3e;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+/* 4th grid  */
+
+.grid4Container{
+    padding: 50px 100px;
+}
+.grid4{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+   text-align: center;
+   gap: 30px;
+  
+
+}
+.card4{
+    background-color: #eef9ff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card4 h3{
+    color: #3385ff;
+    font-weight: lighter;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.card4 h4{
+    color: grey;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+.card4 img{
+    aspect-ratio: 1/1;
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+/* foot container  */
+.footContainer{
+    /* padding: 40px 100px; */
+    background-color: #091e3e;
+}
+
+.footcont{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly;
+    color: white;
+}
+.leftFoot{
+    width: 400px;
+    background-color: #3385ff;
+    padding: 50px 30px;
+    height: 100%;
+    text-align: center;
+}
+.logoFoot{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.logoFoot h2 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+
+}
+
+.logoFoot i {
+    font-size: 45px;
+}
+.leftFoot p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px ;
+    font-weight: lighter;
+
+}
+.leftFoot button{
+    padding: 10px 20px;
+    margin-top: 20px ;
+    background-color:#091e3e ;
+    color: white;
+    border: none;
+}
+.ftn{
+    padding: 10px 20px;
+    border: none;
+}
+.midFoot{
+    margin: auto 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+.midFoot h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.midFoot h4{
+    padding-bottom: 10px;
+}
+.medLink i{
+    padding: 10px;
+    background-color: #3385ff;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.rightFoot{
+    margin: auto 0;
+    margin-top: 80px;
+}
+.rightFoot h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+
+}
+.qlink li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.qlink a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.qlink i{
+    color: #3385ff;
+}
+
+
+.lastFoot{
+    margin: auto 0;
+}
+.lastFoot{
+    margin: auto 0;
+    margin-top: 80px;
+}
+.lastFoot h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+
+}
+.poplink li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.poplink a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.poplink i{
+    color: #3385ff;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+
+
+/* ResPonsive for mobile  */
+@media(max-width:576px){
+.checkbtn{
+    display: block;
+    padding: 5px 10px ;
+    border: 2px solid #3385ff;
+    color: #3385ff;
+    font-size: 20px;
+}
+
+#check:checked~.navLinks {
+    display: block;
+}
+.navLinks{
+    display: none;
+    position: absolute;
+    background-color: white;
+   
+    top: 100px;
+    width: 100%;
+    right: 0;
+}
+.navLinks button {
+    display: none;
+}
+.navLinks a{
+    color: black;
+}
+.navLinks li{
+    display: flex;
+    align-items: center;justify-content: center;
+    padding: 5px ;
+}
+.navLinks i{
+    display: none;
+}
+
+.contactBar{
+    display: none;
+}
+nav {
+    background-color: white;
+
+}
+.logo{
+    color: #3385ff;
+}
+.heroSection{
+    padding: 30px 0;
+    background-image: linear-gradient(rgba(28, 45, 70, 0.7), rgba(28, 45, 70, 0.7)), url(./carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.heroSection h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+.heroSection h3{
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.free {
+    padding: 10px 15px;
+    background-color: #3385ff;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.us {
+    padding: 10px 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 18px;
+}
+.grid1{
+    margin: 0;
+    padding:100px 25px;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 25px ;
+}
+.rightContent figure img {
+  width: 100%;
+  height: 100%;
+}
+.leftContent h2 {
+    font-size: 35px;
+}
+.bestContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.rightDiv{
+    padding-top: 30px;
+}
+.midDiv img{
+    width: 100%;
+    padding: 0;
+}
+.services{
+    padding: 25px ;
+}
+.services h2{
+    font-size: 34px;
+    /* font-weight: lighter; */
+}
+.grid2{
+    padding: 25px; 
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card2 {
+    background-color: #eef9ff;
+    padding: 40px 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.card2A{
+    padding: 40px 20px;
+}
+.plan{
+    padding:20px 25px;
+}
+.plan h2{
+    font-size: 30px;
+} 
+
+.grid3Container{
+    padding: 30px 25px;
+}
+.reqContent{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 25px;
+}
+.Support {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.num{
+    background-color: transparent;
+}
+.num h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.team{
+    padding:10px 25px;
+}
+.team h2{
+ font-weight: lighter;
+ font-size: 30px; 
+}
+.grid4Container{
+    padding: 30px 25px;
+}
+.logopic{
+    display: none;
+    padding: 0;
+}
+.footcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:0 25px;
+    padding-bottom: 40px;
+    /* gap: 20px; */
+}
+.leftFoot{
+    width: 100%;
+    
+}
+.midFoot h2{
+    padding-top: 20px;
+    margin: 0;
+}
+.rightFoot{
+    margin: 0;
+    padding: 60px 0;
+}
+.lastFoot{
+    margin: 0;
+    padding: 60px 0;
+}
+.card3head {
+    padding: 10px 40px;
+}
+.card3 h2{
+    padding: 10px 40px;
+}
+.card3A h2{
+    padding: 10px 40px;  
+}
+.card3 h5{
+    padding: 10px 40px;
+}
+.card3A h5{
+    padding: 10px 40px;
+}
+.card2A h2{
+    /* font-weight: lighter; */
+    font-size: 25px;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+
+}
